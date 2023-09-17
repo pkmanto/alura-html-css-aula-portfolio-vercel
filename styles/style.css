@@ -29,7 +29,7 @@ body {
 
 .cabecalho__menu {
     display: flex;
-    gap: 80px;
+    gap: 5%;
 }
 
 .cabecalho__menu__link {
@@ -124,13 +124,14 @@ body {
     font-weight: 400;
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 500px) and (max-width: 1200px) {
     .cabecalho {
         padding: 10%;
     }
 
     .cabecalho__menu {
         justify-content: center;
+        gap: 9%;
     }
 
     .apresentacao {
