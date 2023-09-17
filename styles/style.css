@@ -94,7 +94,7 @@ body {
     justify-content: center;
     gap: 16px; /* Esse é um espaçamento entre os elementos do Flexbox */
     border: 2px solid var(--cor-terciaria);
-    width: 50%;
+    width: 68%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -105,7 +105,7 @@ body {
     font-family: var(--fonte-secundaria);
 }
 
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover);
     padding: 3%;
 }
