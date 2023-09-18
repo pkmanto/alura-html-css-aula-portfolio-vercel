@@ -38,6 +38,7 @@ body {
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
+    white-space: nowrap;
 }
 
 /* A função abaixo é um Flexbox, uma ferramenta para organizar as coisas dinamicamente */
